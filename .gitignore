@@ -1,0 +1,10 @@
+#Directories
+.vs/
+bin/
+bin-int/
+AdventureTime.VC.db
+AdventureTime.VC.VC.opendb
+
+#Files
+*.user
+*.bat

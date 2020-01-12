@@ -1,0 +1,3 @@
+[submodule "AdventureTime/verdor/spdlog"]
+	path = AdventureTime/verdor/spdlog
+	url = https://github.com/gabime/spdlog
