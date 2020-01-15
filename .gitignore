@@ -2,8 +2,8 @@
 .vs/
 bin/
 bin-int/
-AdventureTime.VC.db
-AdventureTime.VC.VC.opendb
+Hazel.VC.db
+Hazel.VC.VC.opendb
 
 #Files
 *.user
