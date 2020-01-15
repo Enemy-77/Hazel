@@ -4,9 +4,9 @@
 #define FMT_DEPRECATED // Necessary in v6.0.0 of fmt library to avoid a Intel C++ v19.0 compiler error.
 // Add path to include files, e.g. "fmt/include", to project properties under "VC++ Directories" and "Include Directories".
 
-#include <memory.h>
 #include "Core.h"
 #include "spdlog/spdlog.h"
+#include "spdlog/fmt/ostr.h"
 
 namespace Hazel {
 
