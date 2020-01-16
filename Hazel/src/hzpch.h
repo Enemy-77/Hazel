@@ -17,5 +17,5 @@
 	#include <windows.h>
 #endif // HZ_PLATFORM_WINDOWS
 
-
+#include "Hazel/Log.h"
 
