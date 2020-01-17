@@ -8,3 +8,4 @@ Hazel.VC.VC.opendb
 #Files
 *.user
 *.bat
+*.db
