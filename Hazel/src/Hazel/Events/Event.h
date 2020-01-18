@@ -44,9 +44,9 @@ namespace Hazel {
 			return GetCategoryFlags() & category;
 		}
 
-		bool m_Handled = false;
+		bool Handled = false;
 	};
-
+		
 
 	class EventDispatcher
 	{
@@ -65,7 +65,7 @@ namespace Hazel {
 		{
 			if (m_Event.GetEventType() == T::GetStaticType())
 			{
-				m_Event.m_Handled = func(*(T*)&m_Event);
+				m_Event.Handled = func(*(T*)&m_Event);
 				return true;
 			}
 			return false;
